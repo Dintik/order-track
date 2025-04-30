@@ -2,17 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import styles from './styles.module.scss'
-
-const formatDate = (date: Date) => {
-  const options: Intl.DateTimeFormatOptions = {
-    year: 'numeric',
-    month: '2-digit',
-    day: '2-digit',
-    hour: '2-digit',
-    minute: '2-digit'
-  }
-  return date.toLocaleString('en-US', options)
-}
+import { formatDate } from '@/helpers/date'
 
 export const DateTime = () => {
   const [currentTime, setCurrentTime] = useState<Date | null>(null)
