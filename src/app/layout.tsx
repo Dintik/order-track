@@ -1,8 +1,10 @@
 import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import '@/assets/styles/globals.scss'
 import { NavigationMenu } from '@/components/NavigationMenu'
 import { TopMenu } from '@/components/TopMenu'
+import BootstrapClient from '@/components/BootstrapClient'
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -30,6 +32,7 @@ export default function RootLayout({
         <NavigationMenu />
         <TopMenu />
         {children}
+        <BootstrapClient />
       </body>
     </html>
   )
