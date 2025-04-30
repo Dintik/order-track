@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap-icons/font/bootstrap-icons.min.css'
 import '@/assets/styles/globals.scss'
 import { NavigationMenu } from '@/components/NavigationMenu'
 import { TopMenu } from '@/components/TopMenu'
@@ -30,8 +31,12 @@ export default function RootLayout({
     <html lang='en'>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <TopMenu />
-        <NavigationMenu />
-        {children}
+        <div className='d-flex'>
+          <div className='col-2'>
+            <NavigationMenu />
+          </div>
+          <div className='col-auto p-5'>{children}</div>
+        </div>
         <BootstrapClient />
       </body>
     </html>
