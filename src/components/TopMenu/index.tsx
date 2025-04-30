@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import Logo from '@/assets/images/logo.webp'
-import styles from './TopMenu.module.scss'
+import styles from './styles.module.scss'
 import { DateTime } from './DateTime'
 import { ActiveUsers } from './ActiveUsers'
 

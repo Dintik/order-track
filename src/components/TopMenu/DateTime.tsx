@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import styles from './TopMenu.module.scss'
+import styles from './styles.module.scss'
 
 const formatDate = (date: Date) => {
   const options: Intl.DateTimeFormatOptions = {

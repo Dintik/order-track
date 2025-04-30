@@ -1,8 +1,8 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import styles from './TopMenu.module.scss'
-import pusherClient from '@/app/lib/pusher'
+import styles from './styles.module.scss'
+import pusherClient from '@/lib/pusher'
 
 interface PusherMembers {
   count: number
