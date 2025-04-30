@@ -37,8 +37,8 @@ export const products = [
       end: '2017-06-29 12:09:33'
     },
     price: [
-      { value: 100, symbol: 'USD', isDefault: 0 },
-      { value: 2600, symbol: 'UAH', isDefault: 1 }
+      { value: 100, symbol: 'USD', isDefault: 1 },
+      { value: 90, symbol: 'EUR', isDefault: 0 }
     ],
     order: 1,
     date: '2017-06-29 12:09:33'
@@ -58,7 +58,7 @@ export const products = [
     },
     price: [
       { value: 100, symbol: 'USD', isDefault: 0 },
-      { value: 2600, symbol: 'UAH', isDefault: 1 }
+      { value: 90, symbol: 'EUR', isDefault: 1 }
     ],
     order: 2,
     date: '2017-06-29 12:09:33'
@@ -71,14 +71,14 @@ export const products = [
       'https://content2.rozetka.com.ua/goods/images/big_tile/372360252.jpg',
     title: 'TP-Link Archer AX73',
     type: 'Routers',
-    specification: 'Wi-Fi 6, 5400 Мбит/с, 4 antennas',
+    specification: 'Wi-Fi 6, 5400 Mbps, 4 antennas',
     guarantee: {
       start: '2023-01-15 10:00:00',
       end: '2025-01-15 10:00:00'
     },
     price: [
-      { value: 150, symbol: 'USD', isDefault: 0 },
-      { value: 5500, symbol: 'UAH', isDefault: 1 }
+      { value: 150, symbol: 'USD', isDefault: 1 },
+      { value: 135, symbol: 'EUR', isDefault: 0 }
     ],
     order: 1,
     date: '2023-01-15 10:00:00'
@@ -91,14 +91,14 @@ export const products = [
       'https://content1.rozetka.com.ua/goods/images/big_tile/351513379.jpg',
     title: 'ASUS RT-AX82U',
     type: 'Routers',
-    specification: 'Wi-Fi 6, 5700 Мбит/с, 4 antennas, RGB',
+    specification: 'Wi-Fi 6, 5700 Mbps, 4 antennas, RGB',
     guarantee: {
       start: '2023-02-20 14:30:00',
       end: '2025-02-20 14:30:00'
     },
     price: [
       { value: 180, symbol: 'USD', isDefault: 0 },
-      { value: 6500, symbol: 'UAH', isDefault: 1 }
+      { value: 162, symbol: 'EUR', isDefault: 1 }
     ],
     order: 2,
     date: '2023-02-20 14:30:00'
@@ -116,8 +116,8 @@ export const products = [
       end: '2025-03-10 09:15:00'
     },
     price: [
-      { value: 80, symbol: 'USD', isDefault: 0 },
-      { value: 3000, symbol: 'UAH', isDefault: 1 }
+      { value: 80, symbol: 'USD', isDefault: 1 },
+      { value: 72, symbol: 'EUR', isDefault: 0 }
     ],
     order: 1,
     date: '2023-03-10 09:15:00'
@@ -136,7 +136,7 @@ export const products = [
     },
     price: [
       { value: 120, symbol: 'USD', isDefault: 0 },
-      { value: 4500, symbol: 'UAH', isDefault: 1 }
+      { value: 108, symbol: 'EUR', isDefault: 1 }
     ],
     order: 2,
     date: '2023-04-05 11:45:00'
@@ -155,8 +155,8 @@ export const products = [
       end: '2025-05-12 16:20:00'
     },
     price: [
-      { value: 100, symbol: 'USD', isDefault: 0 },
-      { value: 3800, symbol: 'UAH', isDefault: 1 }
+      { value: 100, symbol: 'USD', isDefault: 1 },
+      { value: 90, symbol: 'EUR', isDefault: 0 }
     ],
     order: 1,
     date: '2023-05-12 16:20:00'
@@ -176,7 +176,7 @@ export const products = [
     },
     price: [
       { value: 150, symbol: 'USD', isDefault: 0 },
-      { value: 5500, symbol: 'UAH', isDefault: 1 }
+      { value: 135, symbol: 'EUR', isDefault: 1 }
     ],
     order: 2,
     date: '2023-06-18 13:10:00'
@@ -194,8 +194,8 @@ export const products = [
       end: '2025-07-22 15:40:00'
     },
     price: [
-      { value: 200, symbol: 'USD', isDefault: 0 },
-      { value: 7500, symbol: 'UAH', isDefault: 1 }
+      { value: 200, symbol: 'USD', isDefault: 1 },
+      { value: 180, symbol: 'EUR', isDefault: 0 }
     ],
     order: 1,
     date: '2023-07-22 15:40:00'
@@ -214,7 +214,7 @@ export const products = [
     },
     price: [
       { value: 250, symbol: 'USD', isDefault: 0 },
-      { value: 9000, symbol: 'UAH', isDefault: 1 }
+      { value: 225, symbol: 'EUR', isDefault: 1 }
     ],
     order: 2,
     date: '2023-08-30 12:25:00'
@@ -232,8 +232,8 @@ export const products = [
       end: '2025-09-14 17:50:00'
     },
     price: [
-      { value: 180, symbol: 'USD', isDefault: 0 },
-      { value: 6500, symbol: 'UAH', isDefault: 1 }
+      { value: 180, symbol: 'USD', isDefault: 1 },
+      { value: 162, symbol: 'EUR', isDefault: 0 }
     ],
     order: 3,
     date: '2023-09-14 17:50:00'
