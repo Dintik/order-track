@@ -1,10 +1,10 @@
-export interface Price {
+export interface IPrice {
   value: number
   symbol: string
   isDefault: number
 }
 
-export interface Product {
+export interface IProduct {
   id: number
   serialNumber: number
   isNew: number
@@ -16,12 +16,12 @@ export interface Product {
     start: string
     end: string
   }
-  price: Price[]
+  price: IPrice[]
   order: number
   date: string
 }
 
-export interface Order {
+export interface IOrder {
   id: number
   title: string
   date: string
