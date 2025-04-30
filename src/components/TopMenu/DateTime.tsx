@@ -26,7 +26,9 @@ export const DateTime = () => {
     return () => clearInterval(intervalId)
   }, [])
 
-  if (!currentTime) return null
-
-  return <div className={styles.topMenu__time}>{formatDate(currentTime)}</div>
+  return (
+    <p className={styles.topMenu__time}>
+      {currentTime ? formatDate(currentTime) : '00/00/0000, 00:00 PM'}
+    </p>
+  )
 }
