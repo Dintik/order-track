@@ -8,7 +8,7 @@ export const orders = [
   },
   {
     id: 2,
-    title: 'Order 2',
+    title: 'Order 2 - Lorem ipsum dolor sit amet',
     date: '2017-06-29 12:09:33',
     description: 'desc',
     products: [2, 4, 6, 8]
@@ -46,10 +46,10 @@ export const products = [
   {
     id: 2,
     serialNumber: 1234,
-    isNew: 1,
+    isNew: 0,
     photo:
       'https://content1.rozetka.com.ua/goods/images/big_tile/440994724.jpg',
-    title: 'Product 1',
+    title: 'Product 2 - Lorem ipsum dolor sit amet',
     type: 'Monitors',
     specification: 'Specification 1',
     guarantee: {
@@ -70,7 +70,7 @@ export const products = [
     photo:
       'https://content2.rozetka.com.ua/goods/images/big_tile/372360252.jpg',
     title: 'TP-Link Archer AX73',
-    type: 'Routers',
+    type: 'Routers - Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     specification: 'Wi-Fi 6, 5400 Mbps, 4 antennas',
     guarantee: {
       start: '2023-01-15 10:00:00',
@@ -86,11 +86,11 @@ export const products = [
   {
     id: 4,
     serialNumber: 1234,
-    isNew: 1,
+    isNew: 0,
     photo:
       'https://content1.rozetka.com.ua/goods/images/big_tile/351513379.jpg',
     title: 'ASUS RT-AX82U',
-    type: 'Routers',
+    type: 'Routers - Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     specification: 'Wi-Fi 6, 5700 Mbps, 4 antennas, RGB',
     guarantee: {
       start: '2023-02-20 14:30:00',
@@ -164,7 +164,7 @@ export const products = [
   {
     id: 8,
     serialNumber: 6789,
-    isNew: 1,
+    isNew: 0,
     photo:
       'https://content1.rozetka.com.ua/goods/images/big_tile/331790442.jpg',
     title: 'Crucial MX500 2TB',
@@ -203,7 +203,7 @@ export const products = [
   {
     id: 10,
     serialNumber: 5679,
-    isNew: 1,
+    isNew: 0,
     photo: 'https://content.rozetka.com.ua/goods/images/big_tile/30200012.jpg',
     title: 'MSI MPG Z590',
     type: 'Motherboards',
@@ -232,8 +232,8 @@ export const products = [
       end: '2025-09-14 17:50:00'
     },
     price: [
-      { value: 180, symbol: 'USD', isDefault: 1 },
-      { value: 162, symbol: 'EUR', isDefault: 0 }
+      { value: 18000, symbol: 'USD', isDefault: 1 },
+      { value: 16200, symbol: 'EUR', isDefault: 0 }
     ],
     order: 3,
     date: '2023-09-14 17:50:00'

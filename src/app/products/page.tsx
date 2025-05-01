@@ -1,9 +1,5 @@
-import { Orders } from '@/components/Orders'
+import { ProductsList } from '@/components/Products/ProductsList'
 
 export default function ProductsPage() {
-  return (
-    <div>
-      <Orders />
-    </div>
-  )
+  return <ProductsList />
 }
