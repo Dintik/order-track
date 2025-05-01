@@ -1,6 +1,7 @@
 import { IOrder, IPrice, IProduct } from '@/types'
 import { products } from '@/data/ordersAndProducts'
 import { formatDateLong, formatDateShort } from '@/helpers/date'
+import { DeleteButton } from '@/components/DeleteButton'
 import styles from './styles.module.scss'
 
 interface OrderItemProps {
@@ -62,19 +63,7 @@ export const OrderItem = ({
           )}
         </div>
       )}
-      {isFullSize ? (
-        <button
-          onClick={(e) => {
-            e.stopPropagation()
-          }}
-          type='button'
-          className='btn btn-light btn-light'
-        >
-          <i className='bi bi-trash3-fill' />
-        </button>
-      ) : (
-        <div></div>
-      )}
+      {isFullSize ? <DeleteButton item={order} /> : <div></div>}
       {isSelected && (
         <div className={styles.order__arrow}>
           <i className='bi bi-arrow-right-short' />

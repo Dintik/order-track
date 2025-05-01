@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { IProduct, IPrice } from '@/types'
 import { formatDateShort } from '@/helpers/date'
+import { DeleteButton } from '@/components/DeleteButton'
 import styles from './styles.module.scss'
 
 interface ProductItemProps {
@@ -59,9 +60,7 @@ export const ProductItem = ({
           )}
         </>
       )}
-      <button type='button' className='btn btn-light'>
-        <i className='bi bi-trash3-fill' />
-      </button>
+      <DeleteButton item={product} />
     </div>
   )
 }

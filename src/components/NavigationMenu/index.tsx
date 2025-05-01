@@ -12,7 +12,7 @@ export const NavigationMenu = () => {
   ]
 
   return (
-    <nav className='d-flex gap-3 flex-column align-items-center justify-content-center col-2 bg-white vh-100 position-fixed top-0 left-0 shadow'>
+    <nav className='d-flex gap-3 flex-column align-items-center justify-content-center col-2 bg-white vh-100 position-fixed z-1 top-0 left-0 shadow'>
       <i
         className='bi bi-person-circle lh-1 mb-3'
         style={{ fontSize: '76px' }}

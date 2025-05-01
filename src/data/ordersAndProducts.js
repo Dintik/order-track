@@ -3,21 +3,21 @@ export const orders = [
     id: 1,
     title: 'Order 1',
     date: '2017-06-29 12:09:33',
-    description: 'desc',
+    description: 'desc1',
     products: [1, 3, 5, 7, 9, 10]
   },
   {
     id: 2,
     title: 'Order 2 - Lorem ipsum dolor sit amet',
     date: '2017-06-29 12:09:33',
-    description: 'desc',
+    description: 'desc2',
     products: [2, 4, 6, 8]
   },
   {
     id: 3,
     title: 'Order 3',
     date: '2017-06-29 12:09:33',
-    description: 'desc',
+    description: 'desc3',
     products: [11]
   }
 ]

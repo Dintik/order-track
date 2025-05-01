@@ -6,6 +6,8 @@ import '@/assets/styles/globals.scss'
 import { NavigationMenu } from '@/components/NavigationMenu'
 import { TopMenu } from '@/components/TopMenu'
 import BootstrapClient from '@/components/BootstrapClient'
+import StoreProvider from './StoreProvider'
+import { ModalWindow } from '@/components/ModalWindows'
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -35,7 +37,12 @@ export default function RootLayout({
           <div className='col-2'>
             <NavigationMenu />
           </div>
-          <div className='col-auto p-5'>{children}</div>
+          <div className='col-10 p-5 position-relative'>
+            <StoreProvider>
+              {children}
+              <ModalWindow />
+            </StoreProvider>
+          </div>
         </div>
         <BootstrapClient />
       </body>
