@@ -1,0 +1,29 @@
+.orders {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  &__title {
+    display: flex;
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  &__content {
+    display: flex;
+    gap: 15px;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-width: 100%;
+    width: max-content;
+  }
+
+  &__listSort {
+    min-width: auto;
+    min-width: 500px;
+  }
+}

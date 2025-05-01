@@ -7,7 +7,7 @@ import { ActiveUsers } from './ActiveUsers'
 
 export const TopMenu = () => {
   return (
-    <div className={styles.topMenu}>
+    <header className={styles.topMenu}>
       <Link href='/'>
         <Image src={Logo} alt='Logo' width={116} height={44} />
       </Link>
@@ -15,6 +15,6 @@ export const TopMenu = () => {
         <DateTime />
         <ActiveUsers />
       </div>
-    </div>
+    </header>
   )
 }
