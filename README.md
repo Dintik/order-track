@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Order Track
 
-## Getting Started
+Order Track is a web application for tracking orders and managing products, built with Next.js and TypeScript.
 
-First, run the development server:
+## 🚀 Features
+
+- View list of products
+- View list of orders
+- Detailed order information
+- Filter products by type
+- Real-time data updates via Pusher
+- Modal windows system with Redux state management
+
+## 🛠 Technologies
+
+- Next.js 15.3.1
+- React 19
+- TypeScript
+- Redux Toolkit for state management
+- Bootstrap 5 for styling
+- Bootstrap Icons for icons
+- Pusher for real-time functionality
+- SCSS for styles
+
+## 📦 Installation
+
+1. Clone the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Dintik/order-track.git
+cd order-track
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies using Yarn:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+yarn install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Create `.env.local` file based on `.env.example`:
 
-## Learn More
+## 🚀 Running the Project
 
-To learn more about Next.js, take a look at the following resources:
+To run in development mode:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+yarn dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+To build the project:
 
-## Deploy on Vercel
+```bash
+yarn build
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+To run the built project:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+yarn start
+```
+
+## 🧹 Linting and Formatting
+
+To check the code:
+
+```bash
+yarn lint
+```
+
+To format the code:
+
+```bash
+yarn format
+```
+
+## 📁 Project Structure
+
+- `/src/app` - Main application pages
+- `/src/components` - React components
+- `/src/hooks` - Custom hooks
+- `/src/lib` - Helper libraries
+- `/src/helpers` - Helper functions
+- `/src/types` - TypeScript types
+- `/src/data` - Application data
+- `/src/assets` - Static assets
+
+## 🔧 Environment Setup
+
+Create a `.env.local` file in the project root and add the following variables:
+
+```
+PUSHER_APP_ID=your_pusher_app_id
+PUSHER_KEY=your_pusher_key
+PUSHER_SECRET=your_pusher_secret
+PUSHER_CLUSTER=your_pusher_cluster
+NEXT_PUBLIC_PUSHER_KEY=your_pusher_key
+NEXT_PUBLIC_PUSHER_CLUSTER=your_pusher_cluster
+```
