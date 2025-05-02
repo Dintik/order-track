@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
+import dynamic from 'next/dynamic'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-icons/font/bootstrap-icons.min.css'
 import '@/assets/styles/globals.scss'
@@ -7,7 +8,10 @@ import { NavigationMenu } from '@/components/NavigationMenu'
 import { TopMenu } from '@/components/TopMenu'
 import BootstrapClient from '@/components/BootstrapClient'
 import StoreProvider from './StoreProvider'
-import { ModalWindow } from '@/components/ModalWindows'
+
+const ModalWindow = dynamic(() =>
+  import('@/components/ModalWindows').then((mod) => mod.ModalWindow)
+)
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
