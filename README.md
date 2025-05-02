@@ -96,3 +96,20 @@ PUSHER_CLUSTER=your_pusher_cluster
 NEXT_PUBLIC_PUSHER_KEY=your_pusher_key
 NEXT_PUBLIC_PUSHER_CLUSTER=your_pusher_cluster
 ```
+
+## 🐳 Running with Docker
+
+1. Build the Docker image:
+
+```bash
+docker build -t order-track .
+```
+
+2. Run the container:
+
+```bash
+docker run -p 3000:3000 order-track
+```
+
+- Before building, make sure that the `.env.local` file is in the project root and contains all required environment variables.
+- The application will be available at: http://localhost:3000
