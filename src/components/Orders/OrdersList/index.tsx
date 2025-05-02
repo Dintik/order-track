@@ -13,7 +13,8 @@ export const OrdersList = () => {
   return (
     <main className={styles.orders}>
       <section className={styles.orders__title}>
-        <h1>TODO: + Orders</h1>
+        {/* // TODO: need add new order functionality */}
+        <h1>Orders</h1>
         <p>&nbsp;/ {orders.length}</p>
       </section>
       <section className={styles.orders__content}>

@@ -16,7 +16,8 @@ export const OrderDetails = ({ order, onClose }: OrderDetailsProps) => {
       </button>
       <div className={styles.orderDetails__header}>
         <h2>{order.title}</h2>
-        <p>TODO: + Add new product</p>
+        {/* // TODO: need add new product functionality */}
+        <p>Add new product</p>
       </div>
 
       <div className={styles.orderDetails__list}>
